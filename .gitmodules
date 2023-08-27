@@ -1,0 +1,3 @@
+[submodule "ai-doge-blog/themes/hugo-liftoff"]
+	path = ai-doge-blog/themes/hugo-liftoff
+	url = https://github.com/wjh18/hugo-liftoff

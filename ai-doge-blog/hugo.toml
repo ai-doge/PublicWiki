@@ -1,0 +1,4 @@
+baseURL = 'https://ai-doge.github.io/'
+languageCode = 'en-us'
+title = 'ai-doge'
+theme = 'hugo-liftoff'
