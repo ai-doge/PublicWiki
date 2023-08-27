@@ -1,8 +1,8 @@
 ### General
-baseURL = 'https://www.example.com/' # Enter your full production URL
+baseURL = 'https://ai-doge.github.io/' # Enter your full production URL
 languageCode = 'en-us' # Default
 timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-title = 'Example Site' # Site title used throughout site
+title = 'ai-doge' # Site title used throughout site
 
 ### SEO, Analytics & 3rd-party
 enableRobotsTXT = true # To overwrite the theme's robots.txt, add your own in the /layouts/ directory
