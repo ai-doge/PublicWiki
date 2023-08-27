@@ -1,13 +1,13 @@
 ---
-title: Jump-start your personal blog and portfolio with the Hugo Liftoff theme.
-subtitle: Minimal blog/portfolio theme with a focus on content creation and SEO best practices. An ideal choice for technical users jump-starting a personal brand.
-seo_title: Hugo Liftoff | Hugo theme for creators
+title: ai-doge's blog
+subtitle: We are AiDoge, a team dedicated to creating and advancing innovative AI applications for mobile devices. Our mission is to bring the power and potential of AI into everyone's hands.
+seo_title: ai-doge's blog
 
 primary_cta_page: "about"
 secondary_cta_page: "projects"
 
 posts_section_heading: Recent Posts
-projects_section_heading: My Projects
+projects_section_heading: Our Products
 ---
 
 {{< recent-posts 5 >}}
