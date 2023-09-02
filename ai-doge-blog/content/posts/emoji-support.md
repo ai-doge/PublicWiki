@@ -1,5 +1,5 @@
 ---
-title: Emoji Support
+title: 如何移植
 seo_title: Emoji Support
 summary: Guide to emoji usage in Hugo.
 description: Guide to emoji usage in Hugo.
