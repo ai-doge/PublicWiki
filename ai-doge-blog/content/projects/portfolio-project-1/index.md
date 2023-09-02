@@ -1,10 +1,10 @@
 ---
-title: Portfolio Project 1
-seo_title: Portfolio Project 1
-summary: Portfolio Project 1 is my first portfolio project.
-description: Portfolio Project 1 is my first portfolio project.
-slug: portfolio-project-1
-author: John Doe
+title: Segment Anything
+seo_title: On-device Image Foundation Model
+summary: Enjoy state-of-the-art image segmentation on your iPhone or iPad.
+description: All processing is done locally on your iphone or ipad, everything works without network. We've optimized it for smooth, reliable performance on your device. The implementation of Segment Anything is based on the open source SAM(Segment Anything Model).
+slug: sam
+author: ai-doge
 
 draft: false
 date: 2019-02-20T03:52:30-05:00
@@ -12,18 +12,17 @@ lastmod:
 expiryDate: 
 publishDate: 
 
-feature_image: web-design.jpg
-feature_image_alt: Web design
+feature_image: sam.jpg
+feature_image_alt: Segment Anything
 
 project types: 
-    - Personal
+    - iOS
 
 techstack:
-    - Hugo
-    - HTML/CSS
-    - JavaScript
-    - Netlify
-live_url: https://hugo-liftoff.netlify.app
+    - iOS
+    - Swift
+    - MPSGraph
+live_url: https://apps.apple.com/us/app/segment-anything/id6447527235
 source_url: https://github.com/wjh18/hugo-liftoff
 ---
 
