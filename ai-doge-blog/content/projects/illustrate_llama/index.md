@@ -12,7 +12,7 @@ lastmod:
 expiryDate: 
 publishDate: 
 
-feature_image: llama.jpg
+feature_image: llama.png
 feature_image_alt: Segment Anything
 
 project types: 
