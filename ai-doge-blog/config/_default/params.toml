@@ -26,7 +26,7 @@ custom_js = 'custom.js' # Add the specified file to assets before setting this p
 
 ### Web schemas
 # Open Graph
-images = ['ai-doge.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
+images = ['images/ai-doge.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
 ogLocale = "en_US" # Open graph locale
 
 # Twitter Cards
@@ -36,7 +36,7 @@ twitterCreator = "aidogeshow" # Enter your twitter handle without the @
 # JSON-LD structured data schemas
 schemaName = "Ai Doge" # Enter your name
 schemaLocale = "en-US" # Structured data locale
-schemaImage = "ai-doge.jpg" # Image for Person structured data schema. Enter path to the image.
+schemaImage = "images/ai-doge.jpg" # Image for Person structured data schema. Enter path to the image.
 schemaImageWidth = 453 # Width of the above image
 schemaImageHeight = 455 # Height of the above image
 
