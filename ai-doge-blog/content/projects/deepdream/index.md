@@ -1,49 +1,46 @@
 ---
-title: AI DeepDream
-seo_title: Illustrate how GPT works
-summary: Dive into the World of Language Modeling, Now Directly on Your Mobile Device!
-description: Experience Baby Llama. Unveiling "Illustrate Llama" - your gateway to the Baby Llama model on iOS. Witness the compact yet powerful Baby Llama model, specially trained on the Tiny Stories dataset for an optimal mobile experience.
-slug: illustrate_llama
-author: ai-doge
+title: AI Deep Dream
+seo_title: Transform Your Photos into Dream-like Images
+summary: Create Hallucinogenic Visuals Right on Your iPhone!
+description: Introducing AI Deep Dream - your go-to app for creating dream-like, hallucinogenic visuals on your iPhone.
+slug: ai_deep_dream
+author: Ai Doge
 
 draft: false
-date: 2023-09-01T03:52:30-05:00
+date: 2023-09-08T03:52:30-05:00
 lastmod: 
 expiryDate: 
 publishDate: 
 
-feature_image: llama.png
-feature_image_alt: Segment Anything
+feature_image: deepdream.png
+feature_image_alt: Dream-like Visuals
 
 project types: 
     - iOS
-    - LLM
+    - AI
 
 techstack:
     - iOS
     - Swift
-    - MPSGraph
-    - LLM
-    - Llama
-live_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
-source_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
+    - Deep Dream
 ---
 
-### Experience Baby Llama
+### Experience AI Deep Dream
 
-Unveiling "Illustrate Llama" - your gateway to the Baby Llama model on iOS. Witness the compact yet powerful Baby Llama model, specially trained on the Tiny Stories dataset for an optimal mobile experience.
+Introducing "AI Deep Dream" - your go-to app for creating dream-like, hallucinogenic visuals on your iPhone. 
 
 ### Key Features
 
-- Portable Baby Llama: Engage with the Baby Llama model right on your iOS device. A smaller, mobile-optimized version of the renowned language model.
+- **Dream-like Visuals**: Transform your regular photos into mind-blowing images right on your iOS device.
+  
+- **Battery Efficient**: While the app does consume a significant amount of battery, it's optimized for the best performance.
 
-- Model Insights: Delve into the Baby Llama structure. A concise look into the magic behind language predictions.
+- **User-Friendly**: Easy to use interface that allows you to dive right into the dream world.
 
-- Visual Predictions: Understand how Baby Llama anticipates the next word. Real-time visualization for an immersive experience.
-
-- Attention Mechanism Unveiled: Witness how Baby Llama's attention zeros in on specific input segments. A unique insight into the model's workings.
+- **No Data Collection**: The developer respects your privacy and does not collect any data from the app.
 
 ### Connect with the Community
 
-Intrigued about Baby Llama? Explore more on GitHub repository: https://github.com/karpathy/babyllama.c
-Step into a new realm of language modeling with Illustrate Llama!
+For more information and support, you can visit the our's website or contact them directly. 
+
+Step into a new realm of visual experiences with AI Deep Dream!
