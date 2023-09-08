@@ -48,8 +48,6 @@ For more context, you can refer to the GitHub issue [here](https://github.com/ka
 
 To overcome this challenge, we submitted a Pull Request ([PR #103](https://github.com/karpathy/llama2.c/pull/103)) to the llama2.c repository. The core idea behind the PR was to decompose the operations involving complex numbers into separate operations for the real and imaginary parts.
 
-## Part 1: Exporting the Model to ONNX Format
-
 ### Code Changes for ONNX Export
 
 To resolve the issue with the `Complex64` data type, we made several changes to the codebase. Below are some of the key modifications:
