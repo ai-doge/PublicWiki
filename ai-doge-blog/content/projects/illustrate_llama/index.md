@@ -1,7 +1,7 @@
 ---
 title: Illustrate Llama
 seo_title: Illustrate how GPT works
-summary: Dive into the World of Language Modeling, Now Directly on Your Mobile Device!
+summary: Dive into the World of LLM directly on Your Device!
 description: Experience Baby Llama. Unveiling "Illustrate Llama" - your gateway to the Baby Llama model on iOS. Witness the compact yet powerful Baby Llama model, specially trained on the Tiny Stories dataset for an optimal mobile experience.
 slug: illustrate_llama
 author: ai-doge
