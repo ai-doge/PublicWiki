@@ -4,7 +4,7 @@ seo_title: Transform Your Photos into Dream-like Images
 summary: Create Hallucinogenic Visuals Right on Your iPhone!
 description: Introducing AI Deep Dream - your go-to app for creating dream-like, hallucinogenic visuals on your iPhone.
 slug: ai_deep_dream
-author: Ai Doge
+author: ai-doge
 
 draft: false
 date: 2023-09-08T03:52:30-05:00
