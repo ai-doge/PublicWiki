@@ -24,7 +24,7 @@ techstack:
     - Swift
     - Deep Dream
 live_url: https://apps.apple.com/us/app/ai-deep-dream/id1619582939
-source_url: https://apps.apple.com/us/app/ai-deep-dream/id1619582939
+# source_url: https://apps.apple.com/us/app/ai-deep-dream/id1619582939
 ---
 
 ### Experience AI Deep Dream

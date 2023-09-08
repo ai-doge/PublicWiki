@@ -23,7 +23,7 @@ techstack:
     - Swift
     - MPSGraph
 live_url: https://apps.apple.com/us/app/segment-anything/id6447527235
-source_url: https://www.producthunt.com/products/segment-anything
+# source_url: https://www.producthunt.com/products/segment-anything
 ---
 
 ## About 

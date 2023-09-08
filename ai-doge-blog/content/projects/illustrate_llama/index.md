@@ -26,7 +26,7 @@ techstack:
     - LLM
     - Llama
 live_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
-source_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
+# source_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
 ---
 
 ### Experience Baby Llama
