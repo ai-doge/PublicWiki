@@ -42,16 +42,12 @@ disableLiveReload = false # Default
 
 # Use this theme as git submodule
 theme = 'hugo-liftoff'
-# Or, use this theme as hugo module
-# [module]
-# [[module.imports]]
-#     path = 'hugo-liftoff'
 
 [taxonomies]
     tag = 'tags'
     category = 'categories'    
     series = 'series' # Allows you to create an organized series of posts (e.g. multi-part tutorial)
-    project-type = 'project types' # Categorize projects by type (e.g. client work, personal, open source, etc.)
+    project-type = 'tech' # Categorize projects by type (e.g. client work, personal, open source, etc.)
 
 [permalinks]
     [permalinks.page]
