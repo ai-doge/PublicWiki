@@ -11,4 +11,4 @@ projects_section_heading: Our Products
 ---
 
 {{< recent-posts 5 >}}
-{{< projects 6 >}}
+{{< projects 5 >}}
