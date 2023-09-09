@@ -27,7 +27,6 @@ techstack:
 live_url: https://apps.apple.com/us/app/image-gan/id1637359196
 # source_url: https://apps.apple.com/us/app/image-gan/id1637359196
 ---
-
 ### Experience Image GAN
 
 Introducing "Image GAN" - an app that crafts unique visuals using advanced GAN algorithms. 
