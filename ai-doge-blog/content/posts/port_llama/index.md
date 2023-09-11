@@ -36,7 +36,7 @@ disable_comments: false
 
 In this blog post, we'll walk through the technical steps involved in running the Baby llama2 model from the [llama2.c GitHub repository](https://github.com/karpathy/llama2.c) on an iOS app called [Illustrate Llama](https://apps.apple.com/us/app/illustrate-llama/id6452017369). We'll cover the process of exporting the model to ONNX format, integrating it into the iOS app, and the challenges we faced along the way.
 
-## Part 1: Exporting the Model to ONNX Format
+## Exporting the Model to ONNX Format
 
 ### The Challenge
 
@@ -95,7 +95,7 @@ h = layer(h, freqs_cos, freqs_sin)
 
 By making these changes, we were able to successfully export the Baby llama2 model to ONNX format without any issues related to the `Complex64` data type.
 
-## Part 2: Exporting to ONNX Format Post-PR
+## Exporting to ONNX Format Post-PR
 
 ### The ONNX Export Code
 
@@ -120,7 +120,7 @@ In this code snippet:
 
 By running this code, the model is exported to an ONNX file named `model_128.onnx`, which can then be integrated into our iOS application.
 
-## Part 3: Running the ONNX Model on iOS Devices
+## Running the ONNX Model on iOS Devices
 
 ### Utilizing MPSX Library
 

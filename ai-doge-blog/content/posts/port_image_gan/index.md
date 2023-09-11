@@ -1,6 +1,6 @@
 ---
-title: Implementing ImageGAN
-seo_title: Port_image_gan
+title: Implementing ImageGAN From Data Collection to Model Compression
+seo_title: Implementing ImageGAN
 summary: 
 description: How to train a projected gan on landscapes/ clouds dataset, then port it on iPhone.
 slug: port_image_gan
@@ -16,7 +16,12 @@ feature_image:
 feature_image_alt: 
 
 categories:
+  - Image GAN
+  - Colab
 tags:
+  - Image GAN
+  - Colab Training
+  - KMeans Weight Quant
 series:
 
 toc: true
@@ -25,8 +30,6 @@ social_share: true
 newsletter: false
 disable_comments: false
 ---
-
-# Implementing ImageGAN: A Journey from Data Collection to App Deployment
 
 ## Introduction
 
@@ -38,7 +41,7 @@ disable_comments: false
 
 For those interested in the technical aspects, this blog post will walk you through the process of implementing ImageGAN, focusing on data preparation and model training.
 
-## Part 1: Preparing Training Data
+## Preparing Training Data
 
 ### Data Collection: Landscapes
 
@@ -48,7 +51,7 @@ To train our GAN model, we needed a dataset that was both high-quality and relev
 
 The collected images were preprocessed to fit the requirements of GAN training. Specifically, we resized the images to a uniform 512x512 pixel resolution. This step is crucial for the stability and effectiveness of the GAN model.
 
-## Part 2: Training the Projected GAN Model
+## Training the Projected GAN Model
 
 ### Choosing an Open-Source Project
 
@@ -74,6 +77,68 @@ class FastganSynthesis(nn.Module):
 ```
 
 By making these adjustments, we were able to train a model that not only converges quickly but is also optimized for mobile deployment.
+
+## Exporting the Trained Model to ONNX and Optimization
+
+After the model training is complete, the next step is to export the model to ONNX (Open Neural Network Exchange) format so that it can run on different platforms and environments. This section will detail how to go about this process, with special emphasis on two key steps: model simplification and model compression.
+
+### Exporting to ONNX Format
+
+First, we use PyTorch's `torch.onnx.export` function to export the trained GAN model to ONNX format. Let's assume the exported model file is named `gan.onnx`.
+
+```python
+import torch.onnx
+import torchvision.models as models
+
+### Initialize the model and input
+model = YourTrainedGANModel()
+x = torch.randn(batch_size, 3, 512, 512, requires_grad=True)
+torch_out = model(x)
+
+### Export the model
+torch.onnx.export(model,                     # model being run
+                  x,                         # model input
+                  "gan.onnx",                # where to save the model
+                  export_params=True)        # store the trained parameter weights inside the model file
+```
+
+### Model Simplification: Using onnxsim
+
+Once the model is exported, we use the `onnxsim` tool to simplify the model. This step usually removes many redundant layers, thereby accelerating model inference and reducing the layers that need to be supported on the device.
+
+```bash
+pip install onnxsim
+onnxsim gan.onnx gan.sim.onnx
+```
+
+### Model Compression: Quantization
+
+#### Using INT8 Precision
+
+The original FP32 model size is close to 100MB, which is too large for a device-side application. Therefore, we plan to use INT8 precision to compress the model, which usually reduces the model size to a quarter of the original.
+
+#### K-means Quantization
+
+In GAN models, traditional quantization methods like scale symmetric quantization or scale zeroPoint asymmetric quantization may lead to significant model accuracy loss. To address this, we use the K-means algorithm for quantization.
+
+Specifically, for each well-trained weight matrix in the network, we use the K-means algorithm to cluster its values into 256 classes. Then, we record the class centers and the class IDs corresponding to each weight.
+
+This K-means quantization method has been tested to almost completely retain the original network's generated image quality. The Cosine Similarity with the original FP32 model's output results is above 0.999.
+
+```python
+# K-means Quantization Code Example (Pseudocode)
+from sklearn.cluster import KMeans
+
+def kmeans_quantize(weight_matrix):
+    original_shape = weight_matrix.shape
+    weight_matrix = weight_matrix.reshape(-1, 1)
+    kmeans = KMeans(n_clusters=256, random_state=0).fit(weight_matrix)
+    centers = kmeans.cluster_centers_
+    labels = kmeans.labels_
+    # Replace the original weights with the class centers
+    quantized_matrix = centers[labels].reshape(original_shape)
+    return quantized_matrix, centers, labels
+```
 
 ## Conclusion
 
