@@ -7,7 +7,7 @@ title = 'ai-doge' # Site title used throughout site
 ### SEO, Analytics & 3rd-party
 enableRobotsTXT = true # To overwrite the theme's robots.txt, add your own in the /layouts/ directory
 rssLimit = -1 # -1 is unlimited RSS entries
-# googleAnalytics = '' # Enter GA tracking ID to enable GA4
+googleAnalytics = 'G-WMMNNH5CCF' # Enter GA tracking ID to enable GA4
 # disqusShortname = '' # Enter Disqus shortname to enable comments
 
 ### Content & Publishing
