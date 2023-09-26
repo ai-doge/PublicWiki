@@ -92,10 +92,10 @@ Both issues combined led to a lot of debugging time. Initially, we realized that
 In FaceRefresh App, we only needed to detect a few key points like the pupils, nose tip, and mouth corners. Therefore, both constellation65Points and constellation76Points would work for me. However, after testing with a Lenna image, we found that constellation76Points gave more accurate results, which was not mentioned in the documentation.
 
 Here are the results using constellation65Points:
-![face_landmarks_constellation_65_on_device](images/face_landmarks_constellation_65.png)
+![face_landmarks_constellation_65_on_device](images/face_landmarks_constellation_65.jpg)
 
 And here are the results using constellation76Points:
 
-![face_landmarks_constellation_76_on_device](images/face_landmarks_constellation_76.png)
+![face_landmarks_constellation_76_on_device](images/face_landmarks_constellation_76.jpg)
 
 Compared to constellation65Points, constellation76Points provided more accurate pupil and mouth corners positions.
