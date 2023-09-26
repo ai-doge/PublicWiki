@@ -22,7 +22,7 @@ techstack:
     - iOS
     - Swift
     - MPSGraph
-live_url: https://apps.apple.com/us/app/segment-anything/id6447527235
+# live_url: https://apps.apple.com/us/app/segment-anything/id6447527235
 # source_url: https://www.producthunt.com/products/segment-anything
 ---
 
@@ -34,7 +34,7 @@ All processing is done locally on your iphone or ipad, everything works without 
 
 We've optimized it for smooth, reliable performance on your device.
 
-The implementation of Segment Anything is based on the open source SAM(Segment Anything Model).
+The implementation of [Segment Anything](https://apps.apple.com/us/app/segment-anything/id6447527235) is based on the open source SAM(Segment Anything Model).
 
 
 In Pro mode, users will be able to unlock the following features:

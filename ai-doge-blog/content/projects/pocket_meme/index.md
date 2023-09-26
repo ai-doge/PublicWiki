@@ -22,7 +22,7 @@ techstack:
     - iOS
     - Swift
     - CoreML
-live_url: https://apps.apple.com/us/app/ai-pocket-meme/id6449818362
+# live_url: https://apps.apple.com/us/app/ai-pocket-meme/id6449818362
 # source_url: https://www.producthunt.com/products/ai-pocket-meme
 ---
 
@@ -30,7 +30,7 @@ live_url: https://apps.apple.com/us/app/ai-pocket-meme/id6449818362
 
 Create hilarious memes by simply snapping a photo or choosing one from your album. All processing is done locally on your iPhone, ensuring quick and private meme creation. The app is optimized for smooth, reliable performance on your device.
 
-The implementation of AI Pocket Meme is designed to offer three unique memes per photo for free users and unlimited memes for Pro users.
+The implementation of [AI Pocket Meme](https://apps.apple.com/us/app/ai-pocket-meme/id6449818362) is designed to offer three unique memes per photo for free users and unlimited memes for Pro users.
 
 ### Pro Features
 

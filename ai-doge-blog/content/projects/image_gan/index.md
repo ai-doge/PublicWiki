@@ -23,15 +23,15 @@ techstack:
     - GAN
     - MPSGraph
 
-live_url: https://apps.apple.com/us/app/image-gan/id1637359196
-source_url: 
+# live_url: https://apps.apple.com/us/app/image-gan/id1637359196
+# source_url: 
 
 newsletter: false
 ---
 
 ## Experience Image GAN
 
-Introducing "Image GAN" - an app that crafts unique visuals using advanced GAN algorithms. 
+Introducing [Image GAN](https://apps.apple.com/us/app/image-gan/id1637359196) - an app that crafts unique visuals using advanced GAN algorithms. 
 
 ## Key Features
 

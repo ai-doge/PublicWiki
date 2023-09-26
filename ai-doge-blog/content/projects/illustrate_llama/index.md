@@ -25,13 +25,13 @@ techstack:
     - MPSGraph
     - LLM
     - Llama
-live_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
+# live_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
 # source_url: https://apps.apple.com/us/app/illustrate-llama/id6452017369
 ---
 
 ### Experience Baby Llama
 
-Unveiling "Illustrate Llama" - your gateway to the Baby Llama model on iOS. Witness the compact yet powerful Baby Llama model, specially trained on the Tiny Stories dataset for an optimal mobile experience.
+Unveiling [Illustrate Llama](https://apps.apple.com/us/app/illustrate-llama/id6452017369) - your gateway to the Baby Llama model on iOS. Witness the compact yet powerful Baby Llama model, specially trained on the Tiny Stories dataset for an optimal mobile experience.
 
 ### Key Features
 
