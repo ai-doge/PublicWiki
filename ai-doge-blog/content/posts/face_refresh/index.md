@@ -32,12 +32,6 @@ disable_comments: false
 Your memories are unique, priceless, and yours alone. As life moves on, it's these moments that matter most.
 [FaceRefresh: AI Photo Restorer](https://apps.apple.com/app/facerefresh-ai-photo-restorer/id6463642671) is here to bring them back to life, vividly and securely, right on your device.
 
-Key features:  
-• Face Sharpening: Transform blurry faces into crisp, clear focal points.  
-• Mosaic Removal: Eliminate pixelation specifically from faces for a smoother appearance.  
-• Color Correction: Balance facial tones to restore natural colors.  
-• Entirely On-Device Processing: All computations are performed entirely on your device, ensuring your data never leaves your phone.  
-
 
 ## How to Use OpenCV2 in a Swift Project
 It's worth mentioning that our initial use of OpenCV was somewhat of a detour.
