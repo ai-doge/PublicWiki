@@ -22,7 +22,7 @@ series:
 toc: true
 related: true
 social_share: true
-newsletter: true
+newsletter: false
 disable_comments: false
 ---
 
