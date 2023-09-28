@@ -64,7 +64,10 @@ When developing the FaceRefresh app, it were our first time using the Vision fra
 2. Facial landmark detection can only be done on a real device.
 Initially, we encountered an error:
 ```
-Error Domain=com.apple.Vision Code=9 "encountered an unexpected condition: Unspecified error" UserInfo={NSLocalizedDescription=encountered an unexpected condition: Unspecified error}
+Error Domain=com.apple.Vision Code=9 
+"encountered an unexpected condition: Unspecified error" 
+UserInfo={NSLocalizedDescription=encountered an 
+          unexpected condition: Unspecified error}
 ```
 
 However, we found a switch (landmarksRequest.usesCPUOnly = true) that allowed the code to run, but the detected landmarks were incorrect.
