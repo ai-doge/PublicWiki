@@ -28,15 +28,23 @@ disable_comments: false
 
 # Sharing Our Experience in Developing FaceRefresh
 
-## A Brief Introduction
-Our app is actually still under review.
+## Meet the App: Before the Code
+Your memories are unique, priceless, and yours alone. As life moves on, it's these moments that matter most.
+[FaceRefresh: AI Photo Restorer](https://apps.apple.com/app/facerefresh-ai-photo-restorer/id6463642671) is here to bring them back to life, vividly and securely, right on your device.
+
+Key features:  
+• Face Sharpening: Transform blurry faces into crisp, clear focal points.  
+• Mosaic Removal: Eliminate pixelation specifically from faces for a smoother appearance.  
+• Color Correction: Balance facial tones to restore natural colors.  
+• Entirely On-Device Processing: All computations are performed entirely on your device, ensuring your data never leaves your phone.  
+
 
 ## How to Use OpenCV2 in a Swift Project
 It's worth mentioning that our initial use of OpenCV was somewhat of a detour.
 
-Firstly we downloaded the OpenCV2 framework (version 4.8) for iOS from the official website (https://opencv.org/releases/),
+Firstly we downloaded the OpenCV2 framework (version 4.8) for iOS from the [official website](https://opencv.org/releases/),
 
-Then we followed a tutorial online (https://medium.com/pharos-production/using-opencv-in-a-swift-project-679868e1b798).
+Then we followed [a tutorial online](https://medium.com/pharos-production/using-opencv-in-a-swift-project-679868e1b798).
 According to the tutorial we needed to configure Xcode and implement wrappers for the OpenCV2 functions we wanted to use. Despite following the tutorial step by step, we encountered various linking issues and couldn't resolve them even after checking every possible error point.
 
 Later, we accidentally discovered that OpenCV2 already contains Swift code. So, theoretically, we shouldn't need to write custom wrappers. After some tinkering, we found that using it is actually quite simple. **All we needed to do was**:
