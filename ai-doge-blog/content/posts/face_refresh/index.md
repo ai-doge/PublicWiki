@@ -16,7 +16,10 @@ feature_image:
 feature_image_alt: 
 
 categories:
+  - OpenCV
 tags:
+  - OpenCV
+  - Super Resolution
 series:
 
 toc: true
