@@ -1,8 +1,8 @@
 ---
 title: Using OpenCV2 and Vision framework on iOS
 seo_title: Use Opencv2 and Vision framework on iOS
-summary: 
-description: 
+summary: How to Use OpenCV2 in a Swift Project
+description: How to Use OpenCV2 in a Swift Project
 slug: Use Opencv2 and Vision framework on iOS
 author: ai-doge
 
