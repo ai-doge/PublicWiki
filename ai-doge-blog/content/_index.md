@@ -10,5 +10,5 @@ posts_section_heading: Recent Posts
 projects_section_heading: Our Products
 ---
 
-{{< recent-posts 5 >}}
 {{< projects 6 >}}
+{{< recent-posts 5 >}}
